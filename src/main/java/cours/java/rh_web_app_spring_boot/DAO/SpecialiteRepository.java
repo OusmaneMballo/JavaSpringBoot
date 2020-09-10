@@ -7,6 +7,6 @@ import org.springframework.stereotype.Repository;
 
 @Repository
 public interface SpecialiteRepository extends JpaRepository<Specialite, Integer>{
-    public  List<Specialite> findByIdService(int id);
-    public List<Specialite> findByService_Libelle(Service s, String libelle);
+    /*public  List<Specialite> findByIdService(int id);
+    public List<Specialite> findByService_Libelle(Service s, String libelle);*/
 }
