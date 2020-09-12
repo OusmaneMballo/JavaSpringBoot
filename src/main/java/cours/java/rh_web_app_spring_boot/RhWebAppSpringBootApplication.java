@@ -18,8 +18,8 @@ public class RhWebAppSpringBootApplication implements CommandLineRunner {
 
     @Override
     public void run(String... args) throws Exception {
-        Specialite specialite=new Specialite();
+        /*Specialite specialite=new Specialite();
         specialite.setLibelle("Specialite 1");
-        specialiteRepo.save(specialite);
+        specialiteRepo.save(specialite);*/
     }
 }
