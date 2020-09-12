@@ -55,9 +55,7 @@
                         <label for="service">Service</label>
                         <select id="service" name="service" class="form-control" required>
                             <option value="0" selected>Choose...</option>
-                         <!--   <c:forEach items="${services}" var="service">
-                                <option value="${service.id}">${service.libelle}</option>
-                            </c:forEach>-->
+                                <option th:each="service:${services}" th:value="${service.id}" th:text="${service.libelle}"></th:eachoption>
                         </select>
                     </div>
                     <div class="form-group col-md-6">
